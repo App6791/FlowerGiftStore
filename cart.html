@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>السلة - متجر الورد والهدايا</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>متجر الورد والهدايا</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html#home">الرئيسية</a></li>
+                <li><a href="flowers.html">الورود</a></li>
+                <li><a href="gifts.html">الهدايا</a></li>
+                <li><a href="contact.html">تواصل معنا</a></li>
+                <li><a href="cart.html">السلة</a></li>
+            </ul>
+        </nav>
+        <div class="currency-selector">
+            <label for="currency">اختر العملة:</label>
+            <select id="currency">
+                <option value="SAR">ريال سعودي (SAR)</option>
+                <option value="USD">دولار أمريكي (USD)</option>
+                <option value="EUR">يورو (EUR)</option>
+            </select>
+        </div>
+    </header>
+
+    <section id="cart">
+        <h2>السلة</h2>
+        <div id="cart-items">
+            <!-- سيتم إضافة العناصر هنا بواسطة JavaScript -->
+        </div>
+        <button id="checkout-btn">إتمام الشراء</button>
+    </section>
+
+    <footer>
+        <p>حقوق النشر © 2024 متجر الورد والهدايا</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
