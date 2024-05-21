@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>الورود - متجر الورد والهدايا</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>متجر الورد والهدايا</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html#home">الرئيسية</a></li>
+                <li><a href="flowers.html">الورود</a></li>
+                <li><a href="gifts.html">الهدايا</a></li>
+                <li><a href="contact.html">تواصل معنا</a></li>
+            </ul>
+        </nav>
+        <div class="currency-selector">
+            <label for="currency">اختر العملة:</label>
+            <select id="currency">
+                <option value="SAR">ريال سعودي (SAR)</option>
+                <option value="USD">دولار أمريكي (USD)</option>
+                <option value="EUR">يورو (EUR)</option>
+            </select>
+        </div>
+    </header>
+
+    <section id="flowers">
+        <h2>الورود</h2>
+        <div class="product" data-price="50">
+            <img src="images/flower1.jpg" alt="ورد أحمر">
+            <h3>ورد أحمر</h3>
+            <p class="price">السعر: 50 ريال</p>
+        </div>
+        <div class="product" data-price="45">
+            <img src="images/flower2.jpg" alt="ورد أبيض">
+            <h3>ورد أبيض</h3>
+            <p class="price">السعر: 45 ريال</p>
+        </div>
+        <!-- المزيد من المنتجات -->
+    </section>
+
+    <footer>
+        <p>حقوق النشر © 2024 متجر الورد والهدايا</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
